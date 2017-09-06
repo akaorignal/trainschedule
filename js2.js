@@ -66,11 +66,15 @@ database.ref().on("child_added", function(childSnapshot, prevChildKey) {
   console.log(empStart);
   console.log(freq);
 
+     $("#train-table > tbody").append("<tr><td>" + trnName+ "</td><td>" + trnDest + "</td><td>" +
+  empStart + "</td><td>" + freq + "</td><td>");
+  
+  /*
 
   $("#tn").html(trnName);
   	$("#dest").html(trnDest);
   		$("#freq").html(freq);
-  			$("#nxtarv").html(empStart);
+  			$("#nxtarv").html(empStart); */
   				
 });
  
