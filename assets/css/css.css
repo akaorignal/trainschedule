@@ -1,0 +1,17 @@
+body{
+
+	background-color: black
+}
+
+#font {
+
+	font-family: 'Aclonica', sans-serif;
+
+}
+
+.panel > .panel-heading {
+    background-image: none;
+    background-color: red;
+    color: white;
+
+}
